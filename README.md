@@ -42,10 +42,4 @@ Besides tech, I'm into:
 
 ---
 
-### 🛠️ Tools & Technologies
 
-```text
-Languages: JavaScript, Python, SQL, Java, HTML/CSS, R  
-Frameworks: Node.js, Express, TensorFlow, scikit-learn  
-Tools: Git, JIRA, VSCode, Postman, MS Excel  
-Concepts: Agile (Scrum/OKR), Data Cleaning, API Design, Testing (White-box/Black-box)
