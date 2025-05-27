@@ -26,9 +26,13 @@ jobs:
         run: python gen_wordcloud.py
 
       - name: Commit and Push
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
           git add wordcloud.png
           git commit -m "🧠 Updated word cloud" || echo "No changes to commit"
           git push
+
