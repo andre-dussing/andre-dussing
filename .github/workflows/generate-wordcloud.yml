@@ -23,7 +23,7 @@ jobs:
           pip install wordcloud matplotlib
 
       - name: Generate Word Cloud
-        run: python wordcloud.py
+        run: python gen_wordcloud.py
 
       - name: Commit and Push
         run: |
